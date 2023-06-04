@@ -1,4 +1,5 @@
 const cool = require('cool-ascii-faces')
+const cors = require('cors')
 const { Pool } = require('pg')
 const express = require('express')
 const path = require('path')
@@ -13,7 +14,11 @@ const pool = new Pool({
   }
 })
 
-express()
+const app = express(); // Создание экземпляра Express
+
+app.use(cors()); // Применение CORS к экземпляру Express
+
+app
   .use(express.static(path.join(__dirname, 'public')))
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')

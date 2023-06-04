@@ -1,31 +1,29 @@
-{
-    "featuredTokens": [
-        {
-            "id": 0,
-            "title": "Marco carrillo®",
-            "image": "https://i.ibb.co/qDwvFpW/featured-Block.png",
-            "creator": "Enrico Cole",
-            "instantPrice": 3.5,
-            "currentBid": 1,
-            "auctionEnding": 1688104057
-        },
-        {
-            "id": 1,
-            "title": "Panda",
-            "image": "https://joy-pup.com/wp-content/uploads/2019/07/pandochka.jpg",
-            "creator": "John Christopher",
-            "instantPrice": 5,
-            "currentBid": 1.55,
-            "auctionEnding": 1687585657
-        },
-        {
-            "id": 2,
-            "title": "Tea Ceremony",
-            "image": "https://www.5.ua/media/pictures/820x546/238727.jpg",
-            "creator": "Rinme りんめ",
-            "instantPrice": 2.2,
-            "currentBid": 0.25,
-            "auctionEnding": 1687153657
-        }
-    ]
-}
+[
+    {
+        "id": 0,
+        "title": "Marco carrillo®",
+        "image": "https://i.ibb.co/qDwvFpW/featured-Block.png",
+        "creator": "Enrico Cole",
+        "instantPrice": 3.5,
+        "currentBid": 1,
+        "auctionEnding": 1688104057
+    },
+    {
+        "id": 1,
+        "title": "Panda",
+        "image": "https://joy-pup.com/wp-content/uploads/2019/07/pandochka.jpg",
+        "creator": "John Christopher",
+        "instantPrice": 5,
+        "currentBid": 1.55,
+        "auctionEnding": 1687585657
+    },
+    {
+        "id": 2,
+        "title": "Tea Ceremony",
+        "image": "https://www.5.ua/media/pictures/820x546/238727.jpg",
+        "creator": "Rinme りんめ",
+        "instantPrice": 2.2,
+        "currentBid": 0.25,
+        "auctionEnding": 1687153657
+    }
+]
