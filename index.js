@@ -2,6 +2,7 @@ const cool = require('cool-ascii-faces')
 const { Pool } = require('pg')
 const express = require('express')
 const path = require('path')
+const slider = require('./slider.json')
 
 const PORT = process.env.PORT || 5001
 
@@ -30,6 +31,7 @@ express()
       res.send("Error " + err);
     }
   })
+  .get('/featuredSlider', (req, res) => res.json(slider))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
 function showTimes() {
